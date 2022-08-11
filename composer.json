@@ -1,0 +1,30 @@
+{
+    "name": "lucasalcp/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "libary",
+    "autoload": {
+        "psr-4": {
+            "Lucasalcp\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucasAlcp",
+            "email": "lucas.al.cp@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4"
+    },
+    "autoload": {
+        "files": ["./functions.php"],
+        "classmap": [
+            "./Teste.php"
+        ],
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    }
+}
